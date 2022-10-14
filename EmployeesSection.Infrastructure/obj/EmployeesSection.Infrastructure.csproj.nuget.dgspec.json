@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Infrastructure/EmployeesSection.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/EmployeesSection.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/EmployeesSection.Domain.csproj",
+        "projectName": "EmployeesSection.Domain",
+        "projectPath": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/EmployeesSection.Domain.csproj",
+        "packagesPath": "/Users/aleksandr/.nuget/packages/",
+        "outputPath": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aleksandr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/aleksandr/.dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Infrastructure/EmployeesSection.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Infrastructure/EmployeesSection.Infrastructure.csproj",
+        "projectName": "EmployeesSection.Infrastructure",
+        "projectPath": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Infrastructure/EmployeesSection.Infrastructure.csproj",
+        "packagesPath": "/Users/aleksandr/.nuget/packages/",
+        "outputPath": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aleksandr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/EmployeesSection.Domain.csproj": {
+                "projectPath": "/Users/aleksandr/Yandex.Disk.localized/My projects C# 2/EmployeesSection/EmployeesSection.Domain/EmployeesSection.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/aleksandr/.dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
